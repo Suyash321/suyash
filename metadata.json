@@ -1,0 +1,8 @@
+{
+  "name": "SUYASH TIWARI Portfolio",
+  "description": "A high-end, monochrome portfolio for Suyash Tiwari, a hybrid engineer-designer, featuring a clean grid layout, dark mode, and an AI-powered design consultant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
