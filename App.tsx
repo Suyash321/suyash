@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import Work from './components/Work';
@@ -234,6 +235,7 @@ const App: React.FC = () => {
       </div>
 
       <ChatAssistant isOpen={isChatOpen} setIsOpen={setIsChatOpen} />
+      <Analytics />
     </div>
   );
 };
